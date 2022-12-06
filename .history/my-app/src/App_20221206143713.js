@@ -1,4 +1,4 @@
-// import logo from "./logo.svg";
+import logo from "./logo.svg";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import React, { useState } from "react";
@@ -22,7 +22,7 @@ function App() {
       setalert(null);
     }, 1500);
   };
-  // Creating the function for dark Mode
+  // Creating the function for Dark Mode
   const ToggleMode = () => {
     if (mode === "light") {
       setmode("dark");
